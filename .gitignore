@@ -1,0 +1,69 @@
+# ---------- 编译产物 ----------
+build/
+Debug/
+Release/
+Objects/
+Listings/
+*.o
+*.d
+*.elf
+*.hex
+*.bin
+*.map
+*.lst
+*.su
+*.cyclo
+*.axf
+*.crf
+*.dep
+*.lnp
+*.htm
+*.i
+
+# ---------- Keil MDK ----------
+*.uvguix.*
+*.uvoptx
+*.uvprojx.bak
+*.bak
+*.dep
+JLinkLog.txt
+JLinkSettings.ini
+RTE/
+
+# ---------- IAR EWARM ----------
+*.ewt
+*.eww
+*.ewp.bak
+*.dep
+settings/
+
+# ---------- STM32CubeIDE / Eclipse ----------
+.metadata/
+.settings/
+.project
+.cproject
+*.launch
+RemoteSystemsTempFiles/
+
+# ---------- VSCode / CLion / 编辑器 ----------
+.vscode/
+.idea/
+*.code-workspace
+*.swp
+*.swo
+*~
+
+# ---------- 系统文件 ----------
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ---------- 日志与临时文件 ----------
+*.log
+*.tmp
+*.orig
+*.rej
+
+# ---------- 可选：放行需要提交的 ----------
+# 如果上面某条规则误伤了项目文件，用 ! 放行
+# !Core/Src/main.c
